@@ -1,0 +1,18 @@
+@layer components {
+  .btn {
+    @apply px-2 py-3 text-sm font-medium rounded-md shadow-sm lg:px-8;
+  }
+  .btn-primary {
+    @apply bg-primary-500 hover:bg-primary-400 text-white;
+  }
+  .btn-secondary {
+    @apply bg-secondary-500 hover:bg-secondary-400 text-white;
+  }
+  .btn-default {
+    @apply bg-gray-200 hover:bg-gray-300 text-gray-900;
+  }
+  .btn-transparent {
+    @apply hover:bg-gray-100 shadow-lg;
+  }
+
+}
